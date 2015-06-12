@@ -9,7 +9,7 @@
 	</div>
 	<div class="col-md-10">
 		<ul class="phoneList">
-			<li ng-repeat="phone in phonesList | filter:query | orderBy:orderProp" >
+			<li ng-repeat="phone in phonesList | filter:query | orderBy:orderProp" class="phone-listing" >
 			    <a href="#/phones/{{phone.id}}" class="thumb">
 			    	<img ng-src="{{phone.imageUrl}}">
 			    </a>
