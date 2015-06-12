@@ -1,4 +1,7 @@
 {
   "directory": "app/bower_components",
-  "interactive": false
+  "interactive": false,
+  "proxy":"http://proxyuser:proxypwd@proxy.server.com:8080",
+  "https-proxy":"http://proxyuser:proxypwd@proxy.server.com:8080",
+  "timeout": 40000
 }
