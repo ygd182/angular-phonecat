@@ -2,16 +2,14 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var App = angular.module('App', [
   'ngRoute',
-  'phonecatAnimations',
-
-  'phonecatControllers',
-  'phonecatFilters',
-  'phonecatServices'
+  'Controllers',
+  'Filters',
+  'Services'
 ]);
 
-phonecatApp.config(['$routeProvider',
+App.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/phones', {
